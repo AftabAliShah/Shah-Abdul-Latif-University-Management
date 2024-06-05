@@ -10,7 +10,7 @@ public class DBConnection {
 	Connection con;
 	Statement statement;
 	private static final String driver = "com.mysql.cj.jdbc.Driver";
-	private static final String DATABASE_NAME = "salu_db";
+	private static final String DATABASE_NAME = "bms";
 	private static final String URL = "jdbc:mysql://localhost:3306/";
 	private static final String uid = "root";
 	private static final String pass = "root";
